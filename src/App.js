@@ -1,7 +1,7 @@
-import ExitEnterAnimation from "./components/ExitEnterAnimation";
+import DragAnimation from "./components/DragAnimation";
 
 function App() {
-  return <ExitEnterAnimation />;
+  return <DragAnimation />;
 }
 
 export default App;
