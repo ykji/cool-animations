@@ -2,14 +2,24 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  const animations = [
+    { id: 1, path: "card-flip", title: "Card Flip" },
+    { id: 2, path: "loader", title: "Loader" },
+    { id: 3, path: "slide-in-on-scroll", title: "Slide-in on scroll" },
+  ];
+
   return (
     <div className="home-container">
       <div className="content">
         <h1 className="title">Try out some cool Animations</h1>
         <div className="grid">
-          <Link to="card-flip" className="animation-card">
-            Card Flip
-          </Link>
+          {animations.map(({ id, path, title }) => {
+            return (
+              <Link id={id} to={path} className="animation-card">
+                {title}
+              </Link>
+            );
+          })}
         </div>
       </div>
     </div>

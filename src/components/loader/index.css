@@ -1,0 +1,65 @@
+.container {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin-top: 60px;
+  border-radius: 50%;
+  border: 12px solid #1f4829;
+  border-top: 12px solid white;
+  border-right: 12px solid white;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.horizontal-loader {
+  height: 12px;
+  width: 200px;
+  margin-top: 60px;
+  background-color: white;
+}
+
+.horizontal-fill-loader-child {
+  height: 12px;
+  background-color: gray;
+  animation: resize 3s linear infinite;
+}
+
+@keyframes resize {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.horizontal-moving-loader-child {
+  width: 20%;
+  height: 12px;
+  background-color: gray;
+  animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: 80%;
+  }
+}
