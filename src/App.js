@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <div className="heads-up">Please use laptop/desktop.</div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="card-flip" element={<CardFlip />} />
