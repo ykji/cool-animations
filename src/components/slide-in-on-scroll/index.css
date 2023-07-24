@@ -14,3 +14,8 @@
   opacity: 1;
   transform: translateX(0);
 }
+
+.sliding-content {
+  border: 2px solid white;
+  padding: 30px 60px;
+}

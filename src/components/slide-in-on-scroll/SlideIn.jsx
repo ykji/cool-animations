@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
 import "./index.css";
+import React, { useState, useEffect } from "react";
+import AnimationDetails from "../AnimationDetails";
 
 const debounce = (func, delay) => {
   let timeoutId;
@@ -43,10 +44,13 @@ const SlideIn = () => {
 
   return (
     <div className="container">
-      <h1>Slide-in on scroll</h1>
+      <AnimationDetails
+        name="Slide-in on scroll"
+        desc="An element slide into view from the left when it becomes visible in the viewport as the user scrolls down the page. The animation should trigger when the element is partially visible."
+      />
       <div style={{ height: "800px" }}>Scroll down to see the animation</div>
       <div className={`slide-in-element ${isVisible ? "in-view" : ""}`}>
-        I'm sliding in from the left!
+        <p className="sliding-content">I'm sliding in from the left!</p>
       </div>
     </div>
   );

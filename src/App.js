@@ -1,8 +1,10 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
-import CardFlip from "./components/card-flip/CardFlip";
 import Loader from "./components/loader/Loader";
+import CardFlip from "./components/card-flip/CardFlip";
+import ModalPopup from "./components/modal-popup/ModalPopup";
 import SlideIn from "./components/slide-in-on-scroll/SlideIn";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import AnimatedButton from "./components/animated-button/AnimatedButton";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Route path="card-flip" element={<CardFlip />} />
           <Route path="loader" element={<Loader />} />
           <Route path="slide-in-on-scroll" element={<SlideIn />} />
+          <Route path="animated-button" element={<AnimatedButton />} />
+          <Route path="modal-popup" element={<ModalPopup />} />
         </Routes>
       </BrowserRouter>
     </>

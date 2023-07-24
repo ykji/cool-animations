@@ -6,6 +6,8 @@ const Home = () => {
     { id: 1, path: "card-flip", title: "Card Flip" },
     { id: 2, path: "loader", title: "Loader" },
     { id: 3, path: "slide-in-on-scroll", title: "Slide-in on scroll" },
+    { id: 4, path: "animated-button", title: "Animated Button" },
+    { id: 5, path: "modal-popup", title: "Modal popup" },
   ];
 
   return (

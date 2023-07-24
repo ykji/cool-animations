@@ -1,0 +1,19 @@
+.container {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 20px 40px;
+  border-radius: 20px;
+  border: 2px solid white;
+  transition: 300ms;
+}
+
+.btn:hover {
+  scale: 1.2;
+  box-shadow: 4px 4px 10px white;
+}

@@ -69,7 +69,7 @@ code {
 }
 
 .grid {
-  gap: 30px;
+  gap: 40px;
   width: 100%;
   display: grid;
   margin: 0 auto;
