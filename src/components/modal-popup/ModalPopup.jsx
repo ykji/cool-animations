@@ -1,10 +1,18 @@
 import "./index.css";
 import Modal from "./Modal";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import AnimationDetails from "../AnimationDetails";
 
 const ModalPopup = () => {
   const [modalOpen, setModalOpen] = useState(false);
+
+  useEffect(() => {
+    if (modalOpen) {
+      document.body.style.overflow = "modalOpen";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+  }, [modalOpen]);
 
   const handleModalOpen = () => {
     setModalOpen(true);

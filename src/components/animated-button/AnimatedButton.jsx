@@ -8,7 +8,7 @@ const AnimatedButton = () => {
         name="Animated Button"
         desc="A button that changes its background color and size smoothly when hovered. Adding a subtle shadow effect to make it feel interactive."
       />
-      <div className="btn">I'll animate.</div>
+      <div className="btn">I'll animate on hover.</div>
     </div>
   );
 };

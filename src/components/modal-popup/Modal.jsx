@@ -1,11 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./index.css";
 
 const Modal = ({ isOpen, onClose }) => {
-  const [modalVisible, setModalVisible] = useState(isOpen);
-  useEffect(() => {
-    setModalVisible(isOpen);
-  }, [isOpen]);
 
   const handleClose = (e) => {
     onClose();
@@ -17,7 +13,7 @@ const Modal = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`modal-overlay ${modalVisible ? "visible" : ""}`}
+      className={`modal-overlay ${isOpen ? "visible" : ""}`}
       onClick={handleClose}
     >
       <div className="modal" onClick={handleModalClick}>
