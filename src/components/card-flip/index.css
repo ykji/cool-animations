@@ -40,6 +40,7 @@
 .front {
   z-index: 2;
   transform: rotateY(0deg);
+  /* The backface-visibility: hidden property is effective when there is an initial transform (e.g., rotateY(0deg)), as it hides the backside of the card when it is rotated away. That's why this transform is important to front*/
 }
 
 .back {
@@ -60,9 +61,7 @@
 .image-shadow {
   bottom: 0;
   z-index: 3;
-  width: 100%;
   height: 30%;
-  position: absolute;
   text-align: center;
   font-size: 24px;
   font-weight: 700;

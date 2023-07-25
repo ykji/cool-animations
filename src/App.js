@@ -4,6 +4,7 @@ import CardFlip from "./components/card-flip/CardFlip";
 import ModalPopup from "./components/modal-popup/ModalPopup";
 import SlideIn from "./components/slide-in-on-scroll/SlideIn";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import BouncingBall from "./components/bouncing-ball/BouncingBall";
 import AnimatedButton from "./components/animated-button/AnimatedButton";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="slide-in-on-scroll" element={<SlideIn />} />
           <Route path="animated-button" element={<AnimatedButton />} />
           <Route path="modal-popup" element={<ModalPopup />} />
+          <Route path="bouncing-ball" element={<BouncingBall />} />
         </Routes>
       </BrowserRouter>
     </>

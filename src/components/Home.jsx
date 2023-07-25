@@ -8,6 +8,7 @@ const Home = () => {
     { id: 3, path: "slide-in-on-scroll", title: "Slide-in on scroll" },
     { id: 4, path: "animated-button", title: "Animated Button" },
     { id: 5, path: "modal-popup", title: "Modal popup" },
+    { id: 5, path: "bouncing-ball", title: "Bouncing Ball" },
   ];
 
   return (
