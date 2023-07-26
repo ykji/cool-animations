@@ -2,11 +2,12 @@ import Home from "./components/Home";
 import Loader from "./components/loader/Loader";
 import CardFlip from "./components/card-flip/CardFlip";
 import ModalPopup from "./components/modal-popup/ModalPopup";
+import TextTyping from "./components/text-typing/TextTyping";
 import SlideIn from "./components/slide-in-on-scroll/SlideIn";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import BouncingBall from "./components/bouncing-ball/BouncingBall";
+import HamburgerMenu from "./components/hamburger-menu/HamburgerMenu";
 import AnimatedButton from "./components/animated-button/AnimatedButton";
-import TextTyping from "./components/text-typing/TextTyping";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="modal-popup" element={<ModalPopup />} />
           <Route path="bouncing-ball" element={<BouncingBall />} />
           <Route path="text-typing" element={<TextTyping />} />
+          <Route path="hamburger-menu" element={<HamburgerMenu />} />
         </Routes>
       </BrowserRouter>
     </>

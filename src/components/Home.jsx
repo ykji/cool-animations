@@ -10,6 +10,7 @@ const Home = () => {
     { id: 5, path: "modal-popup", title: "Modal popup" },
     { id: 6, path: "bouncing-ball", title: "Bouncing Ball" },
     { id: 7, path: "text-typing", title: "Text typing" },
+    { id: 8, path: "hamburger-menu", title: "Hamburger menu" },
   ];
 
   return (
@@ -19,7 +20,7 @@ const Home = () => {
         <div className="grid">
           {animations.map(({ id, path, title }) => {
             return (
-              <Link id={id} to={path} className="animation-card">
+              <Link key={id} to={path} className="animation-card">
                 {title}
               </Link>
             );
