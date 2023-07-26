@@ -8,10 +8,11 @@ const Home = () => {
     { id: 3, path: "slide-in-on-scroll", title: "Slide-in on scroll" },
     { id: 4, path: "animated-button", title: "Animated Button" },
     { id: 5, path: "modal-popup", title: "Modal popup" },
+    { id: 9, path: "floating-elements", title: "Floating elements" },
     { id: 6, path: "bouncing-ball", title: "Bouncing Ball" },
     { id: 7, path: "text-typing", title: "Text typing" },
     { id: 8, path: "hamburger-menu", title: "Hamburger menu" },
-    { id: 8, path: "image-zoom-effect", title: "Image zoom effect" },
+    { id: 10, path: "image-zoom-effect", title: "Image zoom effect" },
   ];
 
   return (

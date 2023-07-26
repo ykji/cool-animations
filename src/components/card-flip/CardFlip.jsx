@@ -11,7 +11,6 @@ import AnimationDetails from "../AnimationDetails";
 const CardFlip = () => {
   return (
     <div className="container">
-      {/* <h1>Card Flip</h1> */}
       <AnimationDetails
         name="Card Flip"
         desc="A card element that flips horizontally when hovered, revealing the backside of the card. Adding a smooth transition to make the flip animation look elegant."

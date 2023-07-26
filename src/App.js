@@ -9,6 +9,7 @@ import BouncingBall from "./components/bouncing-ball/BouncingBall";
 import HamburgerMenu from "./components/hamburger-menu/HamburgerMenu";
 import AnimatedButton from "./components/animated-button/AnimatedButton";
 import ImageZoomEffect from "./components/image-zoom-effect/ImageZoomEffect";
+import FloatingElements from "./components/floating-elements/FloatingElements";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="text-typing" element={<TextTyping />} />
           <Route path="hamburger-menu" element={<HamburgerMenu />} />
           <Route path="image-zoom-effect" element={<ImageZoomEffect />} />
+          <Route path="floating-elements" element={<FloatingElements />} />
         </Routes>
       </BrowserRouter>
     </>
