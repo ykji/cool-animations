@@ -4,7 +4,16 @@ const AnimationDetails = ({ name, desc }) => {
   return (
     <>
       <h1>{name}</h1>
-      <p style={{ textAlign: "center", width: "300px", marginTop:'16px' }}>{desc}</p>
+      <p
+        style={{
+          textAlign: "center",
+          width: "300px",
+          marginTop: "16px",
+          marginBottom: "32px",
+        }}
+      >
+        {desc}
+      </p>
     </>
   );
 };

@@ -11,6 +11,7 @@ const Home = () => {
     { id: 6, path: "bouncing-ball", title: "Bouncing Ball" },
     { id: 7, path: "text-typing", title: "Text typing" },
     { id: 8, path: "hamburger-menu", title: "Hamburger menu" },
+    { id: 8, path: "image-zoom-effect", title: "Image zoom effect" },
   ];
 
   return (

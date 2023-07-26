@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import BouncingBall from "./components/bouncing-ball/BouncingBall";
 import HamburgerMenu from "./components/hamburger-menu/HamburgerMenu";
 import AnimatedButton from "./components/animated-button/AnimatedButton";
+import ImageZoomEffect from "./components/image-zoom-effect/ImageZoomEffect";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="bouncing-ball" element={<BouncingBall />} />
           <Route path="text-typing" element={<TextTyping />} />
           <Route path="hamburger-menu" element={<HamburgerMenu />} />
+          <Route path="image-zoom-effect" element={<ImageZoomEffect />} />
         </Routes>
       </BrowserRouter>
     </>
