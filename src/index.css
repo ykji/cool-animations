@@ -69,18 +69,20 @@ code {
 }
 
 .grid {
-  gap: 40px;
   width: 100%;
   display: grid;
+  gap: 40px 10px;
   margin: 0 auto;
-  padding: 0 128px;
   margin-top: 100px;
+  justify-items: center;
+  align-items: center;
+  grid-auto-columns: 10vw;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .animation-card {
-  height: 100px;
-  width: 200px;
+  height: 6rem;
+  width: 12rem;
   display: flex;
   margin: 0 auto;
   color: white;
@@ -105,5 +107,5 @@ code {
   font-weight: 600;
   text-align: center;
   font-size: 20px;
-  background-color: rgb(123, 123, 41)
+  background-color: rgb(123, 123, 41);
 }
