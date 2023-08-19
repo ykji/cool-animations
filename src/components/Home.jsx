@@ -5,6 +5,7 @@ const Home = () => {
   const animations = [
     { id: 1, path: "card-flip", title: "Card Flip" },
     { id: 2, path: "loader", title: "Loader" },
+    { id: 11, path: "progress-bar", title: "Progress Bar" },
     { id: 3, path: "slide-in-on-scroll", title: "Slide-in on scroll" },
     { id: 4, path: "animated-button", title: "Animated Button" },
     { id: 5, path: "modal-popup", title: "Modal popup" },

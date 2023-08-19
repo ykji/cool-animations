@@ -10,6 +10,7 @@ import HamburgerMenu from "./components/hamburger-menu/HamburgerMenu";
 import AnimatedButton from "./components/animated-button/AnimatedButton";
 import ImageZoomEffect from "./components/image-zoom-effect/ImageZoomEffect";
 import FloatingElements from "./components/floating-elements/FloatingElements";
+import ProgressBar from "./components/progress-bar";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="hamburger-menu" element={<HamburgerMenu />} />
           <Route path="image-zoom-effect" element={<ImageZoomEffect />} />
           <Route path="floating-elements" element={<FloatingElements />} />
+          <Route path="progress-bar" element={<ProgressBar />} />
         </Routes>
       </BrowserRouter>
     </>
